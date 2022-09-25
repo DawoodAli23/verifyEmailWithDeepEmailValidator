@@ -60,7 +60,7 @@ app.get("/", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running at PORT ${PORT}`);
+    console.log(`Server is running at PORT ${PORT}`.toUpperCase());
 });
 // console.time("this");
 // const func = async () => {
